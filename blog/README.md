@@ -1,9 +1,13 @@
 ---
 blog_index: true
+footer: MIT Licensed | Copyright © 2018-present Amit singh
+
 ---
 
-# Blog
 
-Welcome on my blog.
 
+<h1 style=" font-size: 44px;" > Latest Blogs Posts </h1>
+<br>
 <BlogIndex />
+
+

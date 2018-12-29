@@ -1,13 +1,14 @@
+
 <template>
 <div>
     <div v-for="post in posts">
-        <h2>
+        <h2 style="font-family: serif; font-weight: bold; font-size: 28px;">
             <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
         </h2>
         
-        <p>{{ post.frontmatter.description }}</p>
+        <p >{{ post.frontmatter.description }}</p>
 
-        <p><router-link :to="post.path">Read more</router-link></p>
+        <p style="margin-bottom:100px;"><router-link :to="post.path">Read more</router-link></p>
     </div>
 </div>
 </template>
